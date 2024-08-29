@@ -5,5 +5,8 @@ app.post("/user", (req, res)=>{
     console.log("Hello World!!");
 })
 
+app.get("/user", (req, res)=>{
+    console.log("Hello World!!");
+})
 app.listen(3000, ()=> console.log("Project running port 3000"));
 
